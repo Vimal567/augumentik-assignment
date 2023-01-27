@@ -1,0 +1,11 @@
+.admin-blog-contact-section{
+    margin-bottom: 7rem;
+}
+.admin-blog{
+    margin-right: 25rem;
+}
+@media screen and (width < 768px) {
+    .admin-blog{
+        margin-right: 0rem;
+    }
+}

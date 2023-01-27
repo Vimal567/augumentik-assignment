@@ -1,0 +1,64 @@
+.contact-section{
+    background-color: rgb(10, 40, 111);
+    color: white;
+    padding-bottom: 1rem;
+}
+.contact-container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.contact-logo-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.address-container{
+    margin-left: 7rem;
+}
+.address-container p{
+    text-indent: 4rem;
+}
+.social-button{
+    margin-left: 7rem;
+    cursor: pointer;
+}
+.social-button button{
+    border: none;
+    outline: none;
+    background-color: orange;
+    border-radius: 25px 25px 25px 25px;
+    color: rgb(31, 31, 88);
+    font-weight: 500;
+    width: 7rem;
+    height: 2.2rem;
+}
+.social-links{
+    margin-left: 3rem;
+}
+.divider{
+    height: 0.5rem;
+    background-color: aqua;
+    margin-top: 0.5rem;
+}
+.copy-button{
+    border: none;
+    outline: none;
+    background-color: rgb(69, 69, 207);
+    border-radius: 25px 25px 25px 25px;
+}
+.copy-button:hover{
+    transform : scale(1.1);
+    cursor: pointer;
+}
+@media screen and (width < 768px) {
+    .contact-container{
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+    .address-container{
+        margin-left: 0rem;
+    }
+    .social-button{
+        margin-left: 0rem;
+    }
+}

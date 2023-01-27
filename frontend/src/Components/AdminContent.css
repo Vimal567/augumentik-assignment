@@ -1,0 +1,81 @@
+.admin-content-loading{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.admin-content-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.admin-content-form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 300px;
+}
+.admin-content-form button{
+    width: 300px;
+    border: none;
+    outline: none;
+    background-color: rgb(43, 226, 67);
+}
+.admin-print{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.adminChange-input{
+    display: block;
+    font-size: 20px;
+    transition: .5s;
+}
+.adminChange-input[type="text"]{
+    background: rgb(56, 86, 155);
+    width: 320px;
+    height: 52px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 25px 25px 25px;
+}
+.adminChange-input[type="submit"]{
+    background-color: rgb(147, 238, 0);
+    color: rgb(31, 47, 56);
+    border-radius: 25px 25px 25px 25px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.print-space{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.admin-print button{
+    border: none;
+    outline: none;
+    background-color: rgb(147, 238, 0);
+    border-radius: 25px 25px 25px 25px;
+    width: 100px;
+    height: 40px;
+}
+@media screen and (width < 768px) {
+    .admin-content-section{
+        margin-left: 1.5rem;
+    }
+    .admin-print{
+        margin-left: 1rem;
+    }
+}

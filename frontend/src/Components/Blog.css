@@ -1,0 +1,29 @@
+.blog-section{
+    color: white;
+    margin: 5rem;
+}
+.blog-section h1{
+    text-transform: capitalize;
+}
+.blog-section p{
+    text-indent: 4rem;
+    text-align: justify;
+}
+.blog-image-container img{
+    width: 400px;
+    height: 400px;
+}
+.blog-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (width < 768px) {
+    .blog-section{
+        margin: 2rem;
+    }
+    .blog-section img{
+        width: 300px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,92 @@
+/* User page header css */
+.user-header{
+    color: whitesmoke;
+}
+.company-logo{
+    display: flex;
+    align-items: center;
+}
+.user-header span{
+    color: whitesmoke;
+}
+.user-titles-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user-header-titles{
+    margin-left: 3rem;
+}
+.user-header-titles:hover{
+    cursor: pointer;
+    color: grey;
+    margin-left: 3rem;
+    transform: scale(1.1);
+}
+.dashboard-button{
+    background-color: rgb(0, 239, 227);
+    color: rgb(2, 71, 160);
+    font-weight: 500;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    padding: 0.5rem;
+}
+.dashboard-button:hover{
+    font-weight: 500;
+    color: black;
+    border: none;
+    transform: none;
+}
+.dashboard-button:active{
+    box-shadow: 3px 3px #666;
+    transform: translateZ(-2px);
+}
+@media screen and (width < 768px) {
+    .titles{
+        display: flex;
+        justify-content: end;
+    }
+    .user-titles-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Admin page header css */
+
+.admin-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1rem;
+    color: white;
+    margin: 2rem;
+}
+.admin-header-titles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.admin-header-titles h5{
+    margin-right: 2rem;
+}
+.admin-header-titles button{
+    border: none;
+    outline: none;
+    margin-right: 2rem;
+    background-color: rgb(0, 239, 227);
+    border-radius: 20px 20px 20px 20px;
+    width: 5rem;
+    height: 2rem;
+}
+.admin-header-titles button:hover{
+    transform: scale(1.1);
+}
+@media screen and (width < 568px) {
+    .admin-header-titles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
